@@ -18,6 +18,12 @@
 $ git clone -b chinese-skyculture-enhancement https://github.com/Guanjin0562/stellarium.git
 ```
 
+## Mac 离线 HTML 适配版
+
+东亚星空文化、星官连线及古星表可视化的离线浏览入口见 [`web/`](web/README.md)。下载仓库后用 Safari 等浏览器打开 `web/index.html`，无需安装 Qt、启动服务器或联网加载数据。
+
+Mac HTML 适配由 [Wenshuishi0528](https://github.com/Wenshuishi0528) 制作，保留 Stellarium、观津邀月及各文化和星表原作者的署名与许可。此网页实现主要浏览功能；支持范围、计算近似与原生版差异见网页说明。
+
 ## 分支结构
 - `master`: 与官方同步的纯净分支
 - `chinese-skyculture-enhancement`: **主要自定义分支**（推荐使用）
