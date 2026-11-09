@@ -23,6 +23,12 @@ This is a customized version of [Stellurium](https://github.com/Stellarium/stell
 $ git clone -b chinese-skyculture-enhancement https://github.com/Guanjin0562/stellarium.git
 ```
 
+## Offline browser viewer / Mac 离线 HTML
+
+An offline browser adaptation of the East Asian skycultures and historical star catalogs is available in [`web/`](web/README.md). Open `web/index.html` locally; no Qt installation or server is needed. Mac HTML adaptation by [Wenshuishi0528](https://github.com/Wenshuishi0528), preserving the original authors and data credits. See the viewer documentation for supported functions and coordinate-precision limits.
+
+东亚星空文化、星官连线和古星表的离线 HTML 适配版见 [`web/`](web/README.md)，下载后直接用浏览器打开 `web/index.html`。Mac HTML 适配：**Wenshuishi0528**；保留原作者署名。功能范围与坐标精度说明见网页文档。
+
 ## Branches 分支结构
 - `master`: A pure branch synchronized with the official / 与官方同步的纯净分支
 - `chinese-skyculture-enhancement`: **Main custom branch** (recommended) / **主要自定义分支**（推荐使用）
